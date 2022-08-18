@@ -1,12 +1,12 @@
 {
-    "name": "backend-travel-expense",
+    "name": "backend-tripcount",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "set NODE_OPTIONS=--max-old-space-size=8192 && node build",
-        "start": "nodemon index.js"
+        // "build": "set NODE_OPTIONS=--max-old-space-size=8192 && node build",
+        "start": "node --max-old-space-size=8192 index.js"
     },
     "keywords": [],
     "type": "module",
