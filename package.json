@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         // "build": "set NODE_OPTIONS=--max-old-space-size=8192 && node build",
-        "start": "node --max-old-space-size=8192 index.js"
+        "start": "nodemon --max-old-space-size=8192 index.js"
     },
     "keywords": [],
     "type": "module",
