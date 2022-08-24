@@ -2,10 +2,10 @@
     "name": "backend-tripcount",
     "version": "1.0.0",
     "description": "TRIPCOUNT - website for counting price of your trip before start. tripcount-back is Back-end of project.",
-    "main": "index.js",
+    "main": "index2.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node --max-old-space-size=8192 index.js"
+        "start": "node --max-old-space-size=8192 index2.js"
     },
     "keywords": [],
     "author": "",
