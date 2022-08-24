@@ -15,7 +15,7 @@ const urlTaxi =
 // const urlAnytime = "https://anytime.kz/rates.html";
 
 // FETCH AND SAVE TO DB EVERY 10 MINUTES
-cron.schedule("* */1 * * * *", function () {
+cron.schedule("* * */10 * * *", function () {
     // "* */10 * * * *"
     // console.log("Cron schedule is working)))");
 
